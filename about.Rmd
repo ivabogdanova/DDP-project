@@ -1,0 +1,23 @@
+---
+title: "about.md"
+author: "Iva Bogdanova"
+date: "Oct 2, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Motor Trend Car WebApp
+
+* This is a WebApp created as an assignment for the Developing Data Products Course on Coursera. It is based on the mtcars dataset in R.*
+
+You need a car to rent for your next Motor Trens show trip?
+Look what mtcars database offer and pick the choise that best fits you!
+
+To start the search, you'll need to specify the distance you are going to drive with the car and the price of gazoline in the tripcounty.
+Then, cpecify the maximum amount of money you can allow on gazoline. You'll see displayed in the Table only the cars with MPG (Miles Per Galoon) that are below the ammount of money you've chosen. The Gazoline Expenditure for each car is calculated based on your distance and gazoline price selected.
+
+To further specify your choise, you can filter based on the displacement, horse power, number of cylinders and transmission. You can order the results in discending/increasing order per parameter using the arrows next to the variable name in the Table, and thus sort your search results.
+
